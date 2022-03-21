@@ -1,1 +1,1 @@
-# accordion_using_vanilla_js
+# accordion_in_vanilla_js
