@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Farro:wght@300&family=Grenze&family=Lobster&family=Montserrat&family=Noto+Sans:wght@700&family=Poppins:wght@300;400&family=Quicksand:wght@300&family=Quintessential&family=Rowdies:wght@300&family=Staatliches&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="accordion">
+        <div class="contentbox">
+            <div class="label">Food Donation</div>
+            <div class="maincontent">
+                <p>Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.</p>
+            </div>
+        </div>
+        <div class="contentbox">
+            <div class="label">Blanket Donation</div>
+            <div class="maincontent">
+                <p>Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.</p>
+            </div>
+        </div>
+        <div class="contentbox">
+            <div class="label">Old Things Donation</div>
+            <div class="maincontent">
+                <p>Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.</p>
+            </div>
+        </div>
+        <div class="contentbox">
+            <div class="label">Other Donation</div>
+            <div class="maincontent">
+                <p>Donating to the needy is a great way to improve the conditions in your neighborhood or community. Donating food to the worthy people or organizations helps counter poverty, hunger and at the same time, it can improve harmony, friendliness, and trust among residents.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        const accordion = document.getElementsByClassName('contentbox');
+
+        for(i=0;i<accordion.length;i++){
+            accordion[i].addEventListener('click', function(){
+            this.classList.toggle('active')
+        })
+    }
+    </script>
+</body>
+</html>
