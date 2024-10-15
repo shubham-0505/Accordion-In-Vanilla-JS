@@ -1,1 +1,1 @@
-Simple Accordion in Vanilla JavaScript
+Accordion in Vanilla JavaScript
